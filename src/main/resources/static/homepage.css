@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+section h1{
+	font-size: 30pt;
+	color: white;
+	margin: 0 0 25px 60px;
+}
+
+.secao4-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+	text-align: center;
+}
+
+.secao4-div-card a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18pt;
+	transition: all 0.5s ease;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.8);
+	border-radius: 15px;
+	background-color: #3f2182;
+}
+
+.secao4-div-card a:hover {
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+.secao4-div-card a img{
+	width: 350px;
+	border-radius: 15px;
+	margin: 0 0 15px 0;
+}
+

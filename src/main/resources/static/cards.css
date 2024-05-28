@@ -1,0 +1,237 @@
+body {
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0px -35px;
+    width: 250px;
+}
+
+.card img {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+.recomendacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulopage{
+    margin: 0 0 20px 0;
+}
+
+section h1{
+	font-size: 30pt;
+	color: white;
+}
+
+/*CSS de Avaliação*/
+#sectionAvaliação {
+    justify-content: space-between;
+    width: 90%;
+}
+
+#tabelaFormularioAvaliacao {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.8);
+}
+
+#tabelaFormularioAvaliacao tbody{
+    width: 100%;
+}
+
+#tabelaFormularioAvaliacao tr {
+    padding: 10px;
+    flex: 1 1 100%;
+    display: flex;   
+    border-radius: 25px; 
+    background-color: #3f2182;
+    color: white;
+    margin: 0 0 25px 0px;
+    width: 97%;
+}
+
+.inside-form{
+    width: 100%;
+}
+
+.inside-form tr{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+#tabelaFormularioAvaliacao td {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#imagemFilmeAvaliacao, #imagemSerieAvaliacao, #imagemLivroAvaliacao {
+    width: 300px;
+    float: left;
+    border-radius: 15px;
+}
+
+#tituloFilmeAvaliacao, #tituloSerieAvaliacao, #tituloLivroAvaliacao {
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
+
+.inputText {
+    width: calc(50% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    flex: 1 0 100%;
+}
+
+#formularioCel {
+    width: 80%;
+    float: right;
+    margin-left: 0.5rem;
+}
+
+.textAreaInput {
+    width: calc(100% - 10px); 
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    height: 50px; 
+}
+
+.linkTitulo {
+    color: #fff; 
+    font-size: 22px; 
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.linkTitulo:hover {
+    color: rgba(190, 255, 85, 0.8);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.card img {
+    margin-bottom: 10px; 
+}
+
+.titulosH1 {
+    margin: 2rem; 
+    font-size: 40px;
+}
+
+.recomendacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaques-container,
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; 
+    margin-left: 2rem;
+}
+
+/* CSS de Avaliações */
+.comments{
+    margin: 70px 0 0 0;
+    width: 50%;
+}
+
+.descrip{
+    width: 50%;
+}
+
+.avaliacao-comentario {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0 20px 20px 0;
+    width: 200px;
+    background-color: #3f2182;
+    color: white;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.8);
+}
+
+.avaliacao-comentario img {
+    margin: 0;
+    width: 70px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.avaliacao-comentario .conteudo {
+    flex-grow: 1; 
+    margin-top: 0;
+}
+
+.avaliacao-comentario p {
+    margin: 10px 0; 
+}
+
+.table-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Catálogo - Filmes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar1.css" type="text/css">
+    <link rel="stylesheet" href="cards.css" type="text/css">
+
+    <script src="scripts/filmes.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav-bar">
+            <div class="logo">
+                <a class="btn-home" href="index.html"><img src="img/logo.png" alt="logo">LendOps</a>
+            </div>
+        </div>
+
+        <div>
+            <a href="home.html">Home</a>
+            <a href="">Avaliações</a>
+            <a href="">Sobre</a>
+        </div>
+
+        <div>
+            <a class="btn-perfil" href="">Perfil<img src="img/seta-direita.png" alt=""></a>
+        </div>
+
+    </header>
+
+    <main class="content">
+
+        <section id="recomendacoesFilmes" class="recomendacoes">
+
+            <h1>Filmes</h1>
+
+            <div class="container">
+                <div id="filmes-container" class="cards-container"></div>
+            </div>
+
+        </section>
+
+        <section id="sectionAvaliação" style="display: none;">
+
+            <div class="descrip">
+
+                <h1 class="titulopage">Avaliação do filmes</h1>
+                
+                <table id="tabelaFormularioAvaliacao">
+                    <tr>
+                        <td id="imagemCell">
+                            <img id="imagemFilmeAvaliacao" src="" alt="Imagem do Filme">
+                        </td>
+                        <td>
+                            <h1 id="tituloFilmeAvaliacao"></h1>
+                            <p id="descricaoFilme"></p>
+                            <p id="anoFilme"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="formularioCel">
+                            
+                            <p style="font-weight:bold" id="filmeClicadoId" id="txtIdFilme"></p>
+                            <table class="inside-form">
+                                <tr>
+                                    <td>Usuário:</td>
+                                    <td><input type="text" id="txtIdUsuarioA" class="inputText"></td>
+                                </tr>
+                                <tr>
+                                    <td>Nota:</td>
+                                    <td><input type="text" id="txtNotaFilmeAvaliacao" class="inputText"></td>
+                                </tr>
+                                <tr>
+                                    <td>Comentário:</td>
+                                    <td><input type="text" id="txtComentarioFilme" class="inputText textAreaInput"></td>
+                                </tr>
+                                <tr>
+                                    <td>ID:</td>
+                                    <td><input type="text" id="txtIdAvaliacao" class="inputText"></td>
+                                </tr>
+                                <tr>
+                                    <td>Filme:</td>
+                                    <td><input type="text" id="txtIdFilme" class="inputText"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="button" value="Salvar" onclick="salvarAvaliacao()"
+                                            id="btnSalvarAvaliacao" class="botao">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="comments">
+
+                <div class="table-container" id="corpoTabelaAvaliacaoFilme">
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

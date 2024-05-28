@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.boasvindas {
+	display: flex;
+	justify-content: space-between;
+}
+
+.boasvindas div img {
+	height: 100vh;
+}
+
+.blocoum {
+	display: flex;
+	width: 50vw;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 24pt;
+}
+
+.blocoum :nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.blocoum :nth-child(2) {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.botoes a{
+	text-decoration: none;
+	color: white;
+	background-color: darkslateblue;
+	padding: 10px 50px;
+	margin: 20px;
+	border-radius: 50px;
+}
